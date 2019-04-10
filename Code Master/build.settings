@@ -1,0 +1,50 @@
+settings = 
+{
+    window =
+    {
+        titleText = 
+        {
+            default = "Code Master",
+            ["en‐us"] = "Code Master",
+        },
+        defaultMode = "normal",
+        resizable = true,
+        defaultViewWidth = 1440,
+        defaultViewHeight = 960,
+        enableCloseButton = true,
+        enableMinimizeButton = true,
+        enableMaximizeButton = true,
+        suspendWhenMinimized = true,
+    },
+    orientation =
+	{
+		default = "landscapeLeft",
+		supported = {"landscapeLeft", "landscapeRight"},
+	},
+
+    splashScreen = 
+    {
+        enable = true,
+    },
+
+	plugins =
+    {
+        
+    },
+ 	
+ 	iphone =
+	{
+		plist=
+		{
+            NSAppTransportSecurity = { NSAllowsArbitraryLoads = true },
+            UIApplicationExitsOnSuspend = false,
+            CFBundleVersion = "1.0",
+            UIStatusBarHidden=true,
+        },
+	},
+	
+	android =
+    {
+    	versionCode = "1.0",
+    },
+}
